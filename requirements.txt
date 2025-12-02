@@ -1,1 +1,4 @@
-Flask==3.1.2
+flask
+gunicorn
+llama-stack-client
+pymilvus
