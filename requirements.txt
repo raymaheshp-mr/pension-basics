@@ -1,4 +1,3 @@
 flask
 gunicorn
-llama-stack-client
-pymilvus
+llama-stack-client==0.2.10
