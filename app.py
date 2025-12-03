@@ -100,4 +100,6 @@ def chat():
 
 if __name__ == '__main__':
     # In OpenShift, Gunicorn will actually run this, but this helps local debug
-    app.run(host='0.0.0.0', port=8080)
+    port = int(os.getenv("FLASK_PORT", 8081))
+    print(f"🚀 Starting Flask server on port {port}...")
+    app.run(host='0.0.0.0', port=port)
