@@ -2,3 +2,4 @@ flask
 gunicorn
 llama-stack-client==0.2.10
 fire
+requests
